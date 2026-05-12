@@ -91,6 +91,8 @@ sudo systemctl enable --now libvirtd
 ```
 systemctl status libvirtd
 ```
+<img width="753" height="471" alt="3" src="https://github.com/user-attachments/assets/3188fe09-3a14-4998-a852-12507cdb25ac" />
+
 ---
 
 # Network Configuration
@@ -100,6 +102,8 @@ systemctl status libvirtd
 ```
 sudo virsh net-list --all
 ```
+<img width="229" height="69" alt="1" src="https://github.com/user-attachments/assets/03d9e5ca-d6e2-43cd-903f-14ef257ffe04" />
+
 
 The default NAT network was used for communication between the host and virtual machine.
 
@@ -112,6 +116,8 @@ The default NAT network was used for communication between the host and virtual 
 ```
 qemu-img create -f qcow2 /var/lib/libvirt/images/winserver2019.qcow2 60G
 ```
+<img width="859" height="184" alt="5" src="https://github.com/user-attachments/assets/7895bc97-ae38-439d-9114-0cf7fc588759" />
+
 ---
 
 # Cockpit Web Management
@@ -139,7 +145,7 @@ Cockpit was accessed remotely through a web browser:
 ```
 https://192.168.0.128:9090
 ```
-
+<img width="879" height="692" alt="6" src="https://github.com/user-attachments/assets/58fe371d-b4f6-435b-b078-45b097992c8e" />
 
 ---
 
@@ -152,6 +158,8 @@ The virtual machine was configured with:
 - 60GB qcow2 disk
 - Default NAT networking
 - Windows Server 2019 installation ISO
+  
+<img width="1462" height="818" alt="8" src="https://github.com/user-attachments/assets/cc3b73ab-e5e6-4bce-8d7d-56193d9542a1" />
 
 # Windows Server Installation
 
@@ -162,6 +170,13 @@ The server was configured using:
 - Static IP addressing
 - DNS
 - Active Directory Domain Services
+<img width="1462" height="818" alt="8" src="https://github.com/user-attachments/assets/0045ff49-84e6-43f8-bcbd-939f4e5d36b2" />
+<img width="1462" height="818" alt="12" src="https://github.com/user-attachments/assets/a4049939-6891-4430-b1c3-1e0ea0b6cefb" />
+<img width="1462" height="818" alt="Screenshot 2026-05-12 at 8 29 18 PM" src="https://github.com/user-attachments/assets/5cda9780-9803-4871-bc41-a6ce0d064a5c" />
+<img width="1462" height="818" alt="Screenshot 2026-05-12 at 8 29 34 PM" src="https://github.com/user-attachments/assets/156ed1fd-d998-4e77-9163-7618c3a286df" />
+<img width="1462" height="818" alt="Screenshot 2026-05-12 at 8 35 15 PM" src="https://github.com/user-attachments/assets/68f8d653-dcdd-44ec-8921-e8ba0796e7db" />
+
+<img width="1462" height="818" alt="Screenshot 2026-05-12 at 8 36 49 PM" src="https://github.com/user-attachments/assets/100bc9f9-3215-49e7-92aa-cc4d66bafa1a" />
 
 ---
 
